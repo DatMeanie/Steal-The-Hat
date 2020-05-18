@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterGraphMat
+  m_Shader: {fileID: -6465566751694194690, guid: f71d7295d6452b44c986d634ce6b2a54,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a60c27a97b067a441b6bf1b1e88e8cca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_A8BCF329: 0.1
+    - Vector1_D8E4C80B: 6.03
+    - _SpeedX: 0.1
+    - _SpeedY: -0.03
+    - _Transparency: 0.55
+    m_Colors:
+    - Color_A8E44DD2: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_2713FEF8: {r: 30, g: 30, b: 1, a: 1}
+    - _Tiling: {r: 30, g: 30, b: 0, a: 0}

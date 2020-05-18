@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterPBRMat
+  m_Shader: {fileID: -6465566751694194690, guid: dcf90720be7c924488b15357edf73318,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a60c27a97b067a441b6bf1b1e88e8cca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_84499685_Out_0:
+        m_Texture: {fileID: 2800000, guid: a60c27a97b067a441b6bf1b1e88e8cca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Metallic: 0
+    - _Smoothness: 1
+    - _SpeedX: 0.1
+    - _SpeedY: -0.03
+    - _Transparency: 0.25
+    - _Wavyness: 0.12
+    m_Colors:
+    - _BaseColor: {r: 0.8443396, g: 1, b: 0.9945724, a: 1}
+    - _Tiling: {r: 30, g: 30, b: 0, a: 0}
